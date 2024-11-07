@@ -1,5 +1,5 @@
 public class VIetNameseCompany {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    //Client sử dụng Adapter qua interface:
         JapaneseTarget japanclient = new TranslatorAdapter(new VietNameseAdaptee());
 
 
