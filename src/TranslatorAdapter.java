@@ -10,7 +10,7 @@ public class TranslatorAdapter implements JapaneseTarget {
     private String translate(String vietnameseWords) {   // bắt đầu thực hiện quá trình chuyển đổi
         System.out.println("Đang chạy bộ Adapter để dịch...!");
         System.out.println("Đã dịch xong!");
-        return "Tôi tên là Lộc."; // trả về chuỗi định dạng tiếng việt
+        return "Xin chào."; // trả về chuỗi định dạng tiếng việt
     }
 
 
