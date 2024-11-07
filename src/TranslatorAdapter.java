@@ -8,9 +8,9 @@ public class TranslatorAdapter implements JapaneseTarget {
     }
 
     private String translate(String vietnameseWords) {   // bắt đầu thực hiện quá trình chuyển đổi
-        System.out.println("Đang chạy bộ Adapter để dịch...!");
+        System.out.println("Đang chạy bộ chuyển đổi Adapter để dịch...!");
         System.out.println("Đã dịch xong!");
-        return "Xin chào."; // trả về chuỗi định dạng tiếng việt
+        return "[Xin chào.]"; // trả về chuỗi định dạng tiếng việt
     }
 
 
